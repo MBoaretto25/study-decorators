@@ -1,1 +1,32 @@
-__pycache__
+# Virtualenv
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cacherm -R
+nosetests.xml
+coverage.xml
+cover/*
+
+# IDE
+.idea/
+.vscode/
+.DS_Store/
+
+# Django stuff:
+media/
+mediafiles/*
+staticfiles/*
+*.log
+
+# Firebase
+firebase-private-key.json
+
+# Environment
+.env
